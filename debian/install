@@ -1,0 +1,6 @@
+broadcom-manager 		usr/sbin
+broadcom-manager.desktop 	usr/share/applications/antix
+translations/*.qm 	 	usr/share/broadcom-manager/locale
+broadcom-manager.png		usr/share/pixmaps
+icons/*                 	usr/share/broadcom-manager/icons
+license.html   			usr/share/doc/broadcom-manager

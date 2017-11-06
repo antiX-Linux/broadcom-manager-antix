@@ -1,0 +1,13 @@
+Package: broadcom-manager-antix-dbgsym
+Source: broadcom-manager-antix
+Version: 16.13
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: anticapitalista <antix@operamail.com>
+Installed-Size: 552
+Depends: broadcom-manager-antix (= 16.13)
+Section: debug
+Priority: extra
+Description: Debug symbols for broadcom-manager-antix
+Build-Ids: 5eb604128d07e463e8fffb0ddf442eda6e00d09a
+Original-Maintainer: Adrian <adrian@mxlinux.org>

@@ -1162,7 +1162,7 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
 void MConfig::on_generalHelpPushButton_clicked()
 {
     this->hide();
-    system("mx-viewer https://mxlinux.org/wiki/networking/help-mx-broadcom-manager 'MX Broadcom Manager Help'");
+    system("antix-viewer https://mxlinux.org/wiki/networking/help-mx-broadcom-manager 'Broadcom Manager Help'");
     this->show();
 }
 
@@ -1211,7 +1211,7 @@ void MConfig::on_buttonAbout_clicked()
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::RejectRole);
     if (msgBox.exec() == QMessageBox::AcceptRole)
-        system("mx-viewer file:///usr/share/doc/broadcom-manager/license.html 'MX Broadcom Manager License'");
+        system("antix-viewer file:///usr/share/doc/broadcom-manager/license.html 'Broadcom Manager License'");
     this->show();
 }
 
